@@ -4,7 +4,7 @@ import Item from './Item';
 import './CartPage.css';
 import TotalCartValue from './TotalCartValue';
 function CartPage({ items, onAddOne, onRemoveOne }) {
-    if (items.length == 0) {
+    if (items.length === 0) {
         return (
             <div className="CartPage-noItem">
                 <p><img src="./images/emptycart.png" /></p>
